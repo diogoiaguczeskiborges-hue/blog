@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
 :root{ 
     --azul : #2b2d42ff;
     --cinza: #8d99aeff;
     --platina: #edf2f4ff;
     --vemelho: #ef233cff;
+    --titulo:"Bebas Neue", sans-serif;
+    --texto: "Titillium Web", sans-serif;
 }
 body{
-    background: var(cinza)
+    background: var(cinza);
+    font-family: var(--texto);
+}
+h1{
+
+    font-family: var(--titulo);
 }
 
 
